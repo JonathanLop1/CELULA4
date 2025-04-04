@@ -4,14 +4,14 @@ formato = [
     {"pregunta2":""},
     {"pregunta3":""},
     {"pregunta4":""},
-    {"pregunta5":"A"}
+    {"pregunta5":"C"}
 ]
 print("Bienvenido a preguntas y respuestas","")
 
 
 import time 
 
-def preguntas_1():
+def pregunta5():
     while True:
         print("""La capital de Grecia es:
             A. Esparta 
@@ -35,7 +35,7 @@ def preguntas_1():
              
         elif opcion == "C":
             print("Respuesta Correcta...")
-            time.sleep(2)
+            time.sleep(1)
         
         elif opcion == "D":
             print("Respuesta incorrecta...")             
@@ -44,4 +44,4 @@ def preguntas_1():
         else:
             print("Opcion no valida. Intente con una opcion valida (A,B,C o D).")
         break
-preguntas_1()
+pregunta5()
