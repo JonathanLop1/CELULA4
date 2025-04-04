@@ -53,7 +53,17 @@ else:
 
 # ahora seguira el resumen.
 
-
+print("\n" + "="*30)
+print(f"Puntaje final: {puntaje}/3")
+if puntaje == 3:
+    print("¡Excelente! 🎉")
+elif puntaje == 2:
+    print("¡Buen trabajo! 👍")
+elif puntaje == 1:
+    print("Puedes mejorar")
+else:
+    print("Sigue practicando")
+print("="*30)
 
         
     
