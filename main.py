@@ -111,7 +111,9 @@ while True:
             print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
         
         
-        # hasta aca las preguntas para la seleccion correcta.
+    # hasta aca las preguntas para la seleccion correcta.
+    
+    
     # ahora seguira el resumen.
     print("\n" + "="*30)
     print(f"Puntaje final: {puntaje}/4")
