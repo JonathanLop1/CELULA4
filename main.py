@@ -12,6 +12,33 @@ def bienvenida():
 bienvenida()
 
 
+#Validamos cuantas preguntas son en total para hacer el promedio
+cantidad_de_preguntas = 3
+
+#Creamos un contador para ir contando las respuestas correctas
+contador_respuestas_correctas = 0
+
+
+promedio = contador_respuestas_correctas / cantidad_de_preguntas
+
+
+print("Bienvenido a preguntas y respuestas","")
+
+
+#Pregunta 1
+
+print('¿Quién pintó "La Mona Lisa"?')
+
+print('A) Vincent van Gogh')
+print('B) Pablo Picasso')
+print('C) Leonardo da Vinci')
+print('D) Rembrandt')
+
+respusta_uno = input('Escoge la opción correcta aquí: ').lower()
+
+if respusta_uno == "c":
+    contador_respuestas_correctas += 1
+
 def preguntas():
     formato = [
         {"pregunta1":"C"},
