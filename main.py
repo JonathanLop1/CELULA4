@@ -10,11 +10,13 @@ def bienvenida():
     print()
 bienvenida()
 puntaje = 0 #se crearia un contador para el puntaje final.
-
-
 while True:
     # Pregunta 1
     while True:
+        print("="*60)
+        print("Pregunta 1")
+        print("="*60)
+
         print("\n¿Cuál es el continente más grande del mundo?\n")
         print("1. África")
         print("2. Asia")
@@ -30,15 +32,17 @@ while True:
                 else:
                     break
             else:
-                print("Por favor ingresa un número entre 1 y 4.")
+                print("Por favor ingresa un número entre 1 y 4. ")
         except ValueError:
-            print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
-
-
-
+            print("Estás ingresando una respuesta no válida. Por favor ingresa un número. ")
     # Pregunta 2
     while True:
-        print("¿Quién escribió Cien años de soledad?")
+        print(" \n ")
+        print("="*60)
+        print("Pregunta 2")
+        print("="*60)
+
+        print("\n¿Quién escribió Cien años de soledad?")
         print("1. Mario Vargas Llosa")
         print("2. Gabriel García Márquez")
         print("3. Isabel Allende")
@@ -53,26 +57,19 @@ while True:
                 else:
                     break
             else:
-                print("Por favor ingresa un número entre 1 y 4.")
+                print("Por favor ingresa un número entre 1 y 4. ")
         except ValueError:
-            print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
+            print("Estás ingresando una respuesta no válida. Por favor ingresa un número. ")
 
-        try:
-            respuesta=int(respuesta)
-            if 1<= respuesta <=4:
-                if respuesta == 2:
-                    puntaje +=1
-                    break
-                else:
-                    print("Por favor ingresa un número entre 1 y 4.")
-        except ValueError:
-            print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")       
-
-  
 
     # Pregunta 3
     while True:
-        print("¿En qué año comenzó la Segunda Guerra Mundial?")
+        print(" \n ")
+        print("="*60)
+        print("Pregunta 3")
+        print("="*60)
+
+        print("\n¿En qué año comenzó la Segunda Guerra Mundial?")
         print("1. 1929")
         print("2. 1939")
         print("3. 1941")
@@ -87,11 +84,16 @@ while True:
                 else:
                     break
             else:
-                print("Por favor ingresa un número entre 1 y 4.")
+                print("Por favor ingresa un número entre 1 y 4.) ")
         except ValueError:
-            print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
+            print("Estás ingresando una respuesta no válida. Por favor ingresa un número. ")
     while True:
-        print("¿Cuál es el símbolo químico del oxígeno?")
+        print(" \n ")
+        print("="*60)
+        print("Pregunta 4")
+        print("="*60)
+
+        print("\n¿Cuál es el símbolo químico del oxígeno?")
         print("1. O")
         print("2. O2")
         print("3. Ox")
@@ -106,14 +108,10 @@ while True:
                 else:
                     break
             else:
-                print("Por favor ingresa un número entre 1 y 4.")
+                print("Por favor ingresa un número entre 1 y 4.) ")
         except ValueError:
-            print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
-        
-        
-    # hasta aca las preguntas para la seleccion correcta.
-    
-    
+            print("Estás ingresando una respuesta no válida. Por favor ingresa un número. ")
+        # hasta aca las preguntas para la seleccion correcta.
     # ahora seguira el resumen.
     print("\n" + "="*30)
     print(f"Puntaje final: {puntaje}/4")
