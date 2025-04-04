@@ -1,3 +1,4 @@
+# Formato en forma de diccionario para las preguntas
 formato = [
     {"pregunta1":""},
     {"pregunta2":""},
@@ -6,3 +7,6 @@ formato = [
     {"pregunta5":""}
 ]
 print("Bienvenido a preguntas y respuestas","")
+
+
+# 
