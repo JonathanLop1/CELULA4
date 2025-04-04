@@ -10,6 +10,8 @@ def bienvenida():
     print()
 bienvenida()
 puntaje = 0 #se crearia un contador para el puntaje final.
+
+
 while True:
     # Pregunta 1
     while True:
@@ -31,6 +33,9 @@ while True:
                 print("Por favor ingresa un número entre 1 y 4.")
         except ValueError:
             print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
+
+
+
     # Pregunta 2
     while True:
         print("¿Quién escribió Cien años de soledad?")
@@ -52,12 +57,19 @@ while True:
         except ValueError:
             print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
 
-    respuesta = input("\nTu respuesta (1-4): ")
-    if respuesta == "2":
-        print("¡Correcto!")
-        puntaje += 1
-    else:
-        print("Incorrecto. La respuesta correcta es 2. No lo se")
+        try:
+            respuesta=int(respuesta)
+            if 1<= respuesta <=4:
+                if respuesta == 2:
+                    puntaje +=1
+                    break
+                else:
+                    print("Por favor ingresa un número entre 1 y 4.")
+        except ValueError:
+            print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")       
+
+  
+
     # Pregunta 3
     while True:
         print("¿En qué año comenzó la Segunda Guerra Mundial?")
@@ -97,6 +109,8 @@ while True:
                 print("Por favor ingresa un número entre 1 y 4.")
         except ValueError:
             print("Estás ingresando una respuesta no válida. Por favor ingresa un número.")
+        
+        
         # hasta aca las preguntas para la seleccion correcta.
     # ahora seguira el resumen.
     print("\n" + "="*30)
