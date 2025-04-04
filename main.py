@@ -1,3 +1,14 @@
+print("=" * 60)
+print("🌟 BIENVENIDO AL CUESTIONARIO DE CONOCIMIENTOS GENERALES 🌟")
+print("=" * 60)
+print()
+print("👋 ¡Hola! Prepárate para responder algunas preguntas divertidas.")
+print("📋 Solo necesitas escribir la letra de la opción que creas correcta.")
+print("✅ Por cada respuesta correcta ganarás un punto.")
+print("❌ Por cada incorrecta, no te preocupes, ¡seguirás aprendiendo!")
+print()
+
+
 formato = [
     {"pregunta1":"C"},
     {"pregunta2":""},
