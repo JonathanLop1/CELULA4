@@ -37,7 +37,7 @@ while True:
             print("Estás ingresando una respuesta no válida. Por favor ingresa un número. ")
     # Pregunta 2
     while True:
-        print(" \n ")
+        print()
         print("="*60)
         print("Pregunta 2")
         print("="*60)
@@ -64,7 +64,7 @@ while True:
 
     # Pregunta 3
     while True:
-        print(" \n ")
+        print()
         print("="*60)
         print("Pregunta 3")
         print("="*60)
@@ -88,7 +88,7 @@ while True:
         except ValueError:
             print("Estás ingresando una respuesta no válida. Por favor ingresa un número. ")
     while True:
-        print(" \n ")
+        print("")
         print("="*60)
         print("Pregunta 4")
         print("="*60)
